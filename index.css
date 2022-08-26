@@ -10,7 +10,8 @@ html{
 }
   body{
       min-height: 100vh;
- background: linear-gradient(#9C89FF, #AFD7F7); 
+      background: linear-gradient(#9C89FF, #AFD7F7);
+      overflow-x:hidden;
   }
   .body2 {
       min-height:150vh;
