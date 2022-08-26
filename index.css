@@ -38,6 +38,15 @@ html{
       height:50vh;
       background-color:#06114F;
   }
+  .heading{
+      padding: 5px;
+      text-align: center;
+      color: #F6F7A9;
+      font-size: 20px;
+      font-family:"OCR A Std", monospace;
+      font-weight:bold;
+      border-radius: 25px;
+  }
 
   #money {
       height:20vh;
@@ -100,7 +109,13 @@ html{
       font-family:"OCR A Std", monospace;
       font-size:0.75vw;
       font-weight:bold;
-  }
+ }
+ #flowimage {
+     position:relative;
+     width:25vw;
+     height:30vh;
+     
+ }
 .header .title {
     font-weight: bold;
     font-size: 3.5vw;
@@ -110,11 +125,28 @@ html{
     margin-top:5%;
 }
 
+.header .titleFinger {
+    font-weight: bold;
+    font-size: 3.5vw;
+    font-family:"OCR A Std", monospace;
+    color: #F6F7A9;
+    text-align:center;
+    right:2vh;
+    margin-top:5%;
+}
+
 .header .text {
     font-weight:bold;
     font-size:2vw;
     font-family:"OCR A Std", monospace;
     color:#F6F7A9;
+}
+
+ .textsmall {
+    font-size:1vw;
+    font-family:"OCR A Std", monospace;
+    color:#F6F7A9;
+    text-align:center;
 }
 
 .header #aboutback {
@@ -134,6 +166,10 @@ html{
     top:80vh;
     right:1vw;
 }
+.header #fingerprints {
+    position:relative;
+    right:2vh;
+}
  
 .header2 .title {
     font-weight:bold;
@@ -150,6 +186,18 @@ html{
     color:#9C89FF;
     text-align:center;
     margin:2vh;
+}
+
+.textbox {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    left: 25%;
+    color: #F6F7A9;
+    font-family: "OCR A Std", monospace;
+    font-size: 0.75vw;
+    font-weight: bold;
+    padding:5px;
 }
   .header ul
   {
