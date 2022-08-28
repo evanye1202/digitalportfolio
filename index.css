@@ -64,7 +64,7 @@ html{
   .coursebox{
       position: relative;
       width:50%;
-      top:23%;
+      top:25vh;
       left: 5%;
       color:#F6F7A9;
       font-family:"OCR A Std", monospace;
@@ -158,20 +158,20 @@ html{
 
 .header #coursesback {
     position:relative;
-    top:30vh;
+    top:40vh;
     right:2vh;
 }
 
 .header #ispback {
     position:relative;
-    top:80vh;
+    top:87vh;
     right:1vw;
 }
 .header #fingerprints {
     position:relative;
     right:2vh;
 }
- 
+    
 .header2 .title {
     font-weight:bold;
     font-size:3.5vw;
@@ -210,11 +210,12 @@ html{
       position:absolute;
       left:10px;
       top:150%;
+      
   }
 
   .header ul li
   {
-    
+      
       margin-left:20px;
       list-style: none;
       
@@ -228,7 +229,9 @@ html{
       color: #F6F7A9;
       border-radius: 20px;
       font-weight:bold;
-       font-family:"OCR A Std", monospace
+      font-family:"OCR A Std", monospace;
+      
+				   
   }
 
   #abouttext{
@@ -245,6 +248,24 @@ html{
 .header ul li a.active {
       background:#E0CDEE;
       color:#F7E7FB;
-  }
+}
+
+#github {
+    text-decoration: none;
+      padding: 6px 50px;
+      color:#4169E1;
+      border-radius: 20px;
+      font-weight:bold;
+      font-family:"OCR A Std", monospace;
+      position:relative;
+      left:40vw;
+      font-size:2vw;
+}
+
+#github:hover,
+#github.active {
+    background:#6A5ACD;
+    color:#F7E7FB;
+}
 
 		     
