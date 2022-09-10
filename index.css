@@ -117,6 +117,11 @@ html{
      height:40vh;
      
  }
+ #flowimagelong {
+     position:relative;
+     width:30vw;
+     height:60vh;
+ }
 .header .title {
     font-weight: bold;
     font-size: 3.5vw;
@@ -141,6 +146,12 @@ html{
     font-size:2vw;
     font-family:"OCR A Std", monospace;
     color:#F6F7A9;
+}
+.heading .link {
+    font-size:1vw;
+    font-family:"OCR A Std", monospace;
+    color:#F6F7A9;
+    text-align:center;
 }
 
  .textsmall {
