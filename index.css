@@ -1,7 +1,7 @@
 html{
     scroll-behavior:smooth;
-}
-{
+
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,15 +29,25 @@ html{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-color: white;
   }
   .header2{
       top:100%;
       left:0;
       position:absolute;
       width:100%;
-      height:50vh;
+      height:65vh;
       background-color:#06114F;
+  }
+  header3{
+/*      background: linear-gradient(#9C89FF, #AFD7F7); */
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 30px 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
   }
   .heading{
       padding: 5px;
@@ -104,8 +114,7 @@ html{
  .pausecodebox{
       position: relative;
       width:50%;
-      top: -35vh;
-      left: 28vw;
+      top: -10vh;
       color:#F6F7A9;
       font-family:"OCR A Std", monospace;
       font-size:0.75vw;
@@ -115,12 +124,12 @@ html{
      position:relative;
      width:30vw;
      height:40vh;
+     margin-left:20%;
      
  }
  #flowimagelong {
      position:relative;
-     width:30vw;
-     height:60vh;
+   
  }
 .header .title {
     font-weight: bold;
@@ -129,6 +138,16 @@ html{
     color: #F6F7A9;
     text-align:center;
     margin-top:5%;
+    margin-right:3%;
+}
+.header3 .title {
+    font-weight: bold;
+    font-size: 3.5vw;
+    font-family:"OCR A Std", monospace;
+    color: #F6F7A9;
+    
+    margin-top:5%;
+    margin-left:5%;
 }
 
 .header .titleFinger {
@@ -155,15 +174,19 @@ html{
 }
 
  .textsmall {
-    font-size:1vw;
+   
     font-family:"OCR A Std", monospace;
     color:#F6F7A9;
-    text-align:center;
-}
+    
+ }
+
+ .heading .textsmall {
+     text-align:center;
+ }
 
 .header #aboutback {
     position:relative;
-    top:25vh;
+    top:5vh;
 
 }
 
@@ -173,10 +196,10 @@ html{
     right:2vh;
 }
 
-.header #ispback {
+.header3 #ispback {
     position:relative;
-    top:87vh;
-    right:1vw;
+    bottom:8vh;
+    left:60vw;
 }
 .header #fingerprints {
     position:relative;
@@ -202,12 +225,11 @@ html{
 
 .textbox {
     position: relative;
-    width: 50%;
-    text-align: center;
+    width: 50%;    
     left: 25%;
     color: #F6F7A9;
     font-family: "OCR A Std", monospace;
-    font-size: 0.75vw;
+    font-size: 0.95vw;
     font-weight: bold;
     padding:5px;
 }
@@ -215,7 +237,19 @@ html{
   {
       
       display: flex;
-      justify-content: center:
+      
+      align-items: center;
+      font-size: 2vw;
+      position:absolute;
+      left:10px;
+      top:150%;
+      
+  }
+  .header3 ul
+  {
+      
+      display: flex;
+      
       align-items: center;
       font-size: 2vw;
       position:absolute;
@@ -233,7 +267,23 @@ html{
       
 
   }
+  .header3 ul li
+  {
+      margin-left:20px;
+      list-style:none;
+  }
   .header ul li a
+  {
+      text-decoration: none;
+      padding: 6px 50px;
+      color: #F6F7A9;
+      border-radius: 20px;
+      font-weight:bold;
+      font-family:"OCR A Std", monospace;
+      
+				   
+  }
+  .header3 ul li a
   {
       text-decoration: none;
       padding: 6px 50px;
@@ -257,6 +307,12 @@ html{
   }
 .header ul li a:hover,
 .header ul li a.active {
+      background:#E0CDEE;
+      color:#F7E7FB;
+}
+
+.header3 ul li a:hover,
+.header3 ul li a.active {
       background:#E0CDEE;
       color:#F7E7FB;
 }
