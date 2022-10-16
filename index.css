@@ -18,6 +18,12 @@ html{
       display:flex;
       flex-direction:column;
   }
+
+  .bodyLong {
+      min-height:250vh;
+      display:flex;
+      flex-direction:column;
+  }
  
   .header{
 /*      background: linear-gradient(#9C89FF, #AFD7F7); */
@@ -194,6 +200,11 @@ html{
     position:relative;
     top:40vh;
     right:2vh;
+}
+
+.header #businessback {
+    position:relative;
+    bottom:40vh;
 }
 
 .header3 #ispback {
